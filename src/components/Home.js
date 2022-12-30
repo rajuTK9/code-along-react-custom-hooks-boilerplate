@@ -9,7 +9,6 @@ function Home() {
         type="text"
         onChange={(e) => updateInput(e.target.value)}
         value={userInput ? userInput : ""}
-        placeholder="Type something to make your storage APIs happy 😊"
       />
     </div>
   );
